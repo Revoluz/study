@@ -1,0 +1,10 @@
+ini adalah file external
+dan ini adalah baris ke-dua.
+
+data
+No  Nama
+1   Ahmad
+2   Fadhil
+3   Fanani
+4   Ucup
+5   Pragos
