@@ -7,5 +7,6 @@ Lalu kita menulis kode $b = $a; $a bisa kita bilang adalah expression, karena $a
 Statement bisa dibilang adalah kalimat lengkap dalam bahasa.
 Sebuah statement berisikan execution komplit, biasanya diakhiri dengan titik koma
 
-Statement bisa dibilang adalah kalimat lengkap dalam bahasa.
-Sebuah statement berisikan execution komplit, biasanya diakhiri dengan titik koma
+Block adalah kumpulan statement yang terdiri dari nol atau lebih statement.
+Block diawali dan diakhiri dengan kurung kurawal { }
+
