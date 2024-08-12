@@ -4,6 +4,7 @@
 //   echo "Ini adalah for loop".PHP_EOL;
 // }
 // di loop dulu baru di naikan/increment
+// (init statement,condition,post statement)
 for ($counter = 1; $counter <= 10 ; $counter++) { 
   echo "Ini adalah for loop ke-$counter".PHP_EOL;
   
