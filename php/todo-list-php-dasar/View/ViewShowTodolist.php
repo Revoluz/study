@@ -18,8 +18,14 @@ function viewShowTodoList()
     echo "x. Keluar" . PHP_EOL;
     $pilihan = input("Pilih");
     if ($pilihan == "1") {
+      if (!empty($todoList)) {
+        showTodoList();
+      }
       viewAddTodoList();
     } elseif ($pilihan == "2") {
+      if (!empty($todoList)) {
+        showTodoList();
+      }
       viewRemoveTodoList();
     } elseif ($pilihan == "x") {
       // menghetikan perulangan
@@ -28,5 +34,5 @@ function viewShowTodoList()
       echo "Pilihan tidak dimengerti" . PHP_EOL;
     }
   }
-  echo "Program selsai".PHP_EOL;
+  echo "Program selesai".PHP_EOL;
 }

@@ -6,5 +6,7 @@ require_once "BusinessLogic/ShowTodoList.php";
 require_once "View/ViewAddTodoList.php";
 require_once "View/ViewRemoveTodoList.php";
 require_once "View/ViewShowTodolist.php";
+require_once "Helper/Input.php";
 
 echo "Aplikasi Todolist".PHP_EOL;
+viewShowTodoList();
