@@ -8,6 +8,3 @@ require_once "View/ViewRemoveTodoList.php";
 require_once "View/ViewShowTodolist.php";
 
 echo "Aplikasi Todolist".PHP_EOL;
-
-
-echo var_dump(file_exists('Model/TodoList.php'));
