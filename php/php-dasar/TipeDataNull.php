@@ -33,7 +33,9 @@ echo "\n";
 // Agar lebih aman, kita bisa menggunakan function isset($variable) untuk mengeccek apakah sebuah variable ada dan nilainya tidak NULL
 
 $contoh ="variable contoh";
+// unset variable dihapus dan tidak akan terdeteksi dan tidak bisa digunakan
 unset($contoh);
 // echo $contoh; //undefined
+// isset mengecke apakah sebuah variable ada dan nilainya tidak null
 var_dump(isset($contoh));
 var_dump(isset($age));
