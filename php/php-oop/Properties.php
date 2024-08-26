@@ -1,6 +1,7 @@
 <?php
 // cara membuat object
 require_once __DIR__ . "/data/Person.php";
+require_once __DIR__ . "/data/ConstructPerson.php";
 
 $person = new Person();
 $person->name = "Fanan";

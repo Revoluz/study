@@ -4,7 +4,7 @@ class Person{
   // constant nempelnya di dalam class bukan di dalam object
   const AUTHOR = "PROGRAMMER ZAMAN NOW";
   var string $name;
-  // nullabel default value / boleh kosong
+  // tanda ? yitu nullabel default value / boleh kosong
   var ?string $address = null;
   // default value
   // var string $country merupakan properties
