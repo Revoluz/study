@@ -4,7 +4,9 @@ use Data\{Location,City,Province,Country};
 
 // $location = new Location(); // error
 $city = new City();
+echo $city->text();
 $province = new Province();
+echo $province->text();
 $province = new Country();
 // Abstract Class
 

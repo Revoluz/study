@@ -4,27 +4,76 @@ class Category
 {
   private string $name;
   private bool $expensive;
-  public function setName(string $name): void
-  {
-    // salah satu keunggulan metode getter setter yaitu data lebih aman
-    // validasi nama tidak boleh kosong
-    // trim agar spasi dan whitespace nya hilang
-    if (trim($name) != "") {
-      $this->name = $name;
-    }
-  }
+  // public function setName(string $name): void
+  // {
+  //   // salah satu keunggulan metode getter setter yaitu data lebih aman
+  //   // validasi nama tidak boleh kosong
+  //   // trim agar spasi dan whitespace nya hilang
+  //   if (trim($name) != "") {
+  //     $this->name = $name;
+  //   }
+  // }
+  // public function getName(): string
+  // {
+  //   return $this->name;
+  // }
+
+  // public function setExpensive(bool $expensive): void
+  // {
+  //   $this->expensive = $expensive;
+  // }
+  // public function isExpensive()
+  // {
+  //   return $this->expensive;
+  // }
+  
+
+  /**
+   * Get the value of name
+   *
+   * @return string
+   */
   public function getName(): string
   {
     return $this->name;
   }
 
-  public function setExpensive(bool $expensive): void
+  /**
+   * Set the value of name
+   *
+   * @param string $name
+   *
+   * @return self
+   */
+  public function setName(string $name): self
   {
-    $this->expensive = $expensive;
+    $this->name = $name;
+
+    return $this;
   }
-  public function isExpensive()
+
+  /**
+   * Get the value of expensive
+   *
+   * @return bool
+   */
+  public function isExpensive(): bool
   {
     return $this->expensive;
+  }
+
+  /**
+   * Set the value of expensive
+   *
+   * @param bool $expensive
+   *
+   * @return self
+   */
+  public function setExpensive(bool $expensive): self
+  {
+    $this->expensive = $expensive;
+
+    return $this;
   }
 }
 

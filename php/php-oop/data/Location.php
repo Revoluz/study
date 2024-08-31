@@ -4,6 +4,9 @@ namespace Data;
 // tidak dapat langsung mengakses Location 
 abstract class Location{
   public string $name;
+  public function text():string{
+    return "halo";
+  }
 }
 
 class City extends Location{
