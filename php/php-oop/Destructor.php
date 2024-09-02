@@ -11,3 +11,4 @@ echo "Program Selesai" . PHP_EOL;
 // Untuk membuat function destructor, kita bisa menggunakan nama function __destruct()
 // Khusus untuk destructor, kita tidak boleh menambahkan function argument
 // Dalam penggunaan sehari-hari, ini misal cocok untuk menutup koneksi ke database atau menutup proses menulis ke file, sehingga tidak terjadi memory leak
+// object setelah class dijalankan tidak bisa dipakai

@@ -31,9 +31,9 @@ class ConstructPerson
   {
     echo "Author : " . self::AUTHOR . PHP_EOL;
   }
-  function __destruct(){
-    echo "Object person $this->name is destroyed".PHP_EOL;
-  }
+  // function __destruct(){
+  //   echo "Object person $this->name is destroyed".PHP_EOL;
+  // }
 }
 // Saat kita membuat Object, maka kita seperti memanggil sebuah function, karena kita menggunakan kurung ()
 // Di dalam class PHP, kita bisa membuat constructor, constructor adalah function  yang akan dipanggil saat pertama kali Object dibuat.

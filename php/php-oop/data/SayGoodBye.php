@@ -1,5 +1,6 @@
 <?php
 namespace Data\Traits;
+use A;
 
 trait SayGoodBye{
   public function goodBye(?string $name): void
@@ -31,12 +32,17 @@ trait CanRun
   public abstract function run(): void;
 }
 
-class Person
-{
-  use SayGoodBye,SayHello,HasName,CanRun{
-// Trait change Visibility Override
+// trait inheritance
+trait All{
+  use SayGoodBye, SayHello, HasName, CanRun {
+    // Trait change Visibility Override
     SayHello as private;
   }
+}
+
+class Person
+{
+use All;
   public function run(): void
   {
     echo "Person $this->name is running".PHP_EOL;
@@ -76,3 +82,11 @@ class Person
 
 // Selain melakukan override function di class, kita juga bisa melakukan override visibility function yang terdapat di trait
 // Namun untuk melakukan ini tidak perlu membuat function baru di class, kita bisa gunakan secara sederhana ketika menggunakan trait nya
+
+
+// Trait Inheritance
+
+// Sebelumnya kita sudah tahu bahwa class bisa menggunakan trait lebih dari satu
+// Lantas bagaimana dengan trait yang menggunakan trait lain?
+// Trait bisa menggunakan trait lain, mirip seperti interface yang bisa implement interface lain
+// Untuk menggunakan trait lain dari trait, penggunaannya sama seperti dengan penggunaan trait di class
