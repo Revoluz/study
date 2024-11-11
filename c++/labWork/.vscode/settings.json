@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    "*.css": "css",
+    "iostream": "cpp",
+    "ostream": "cpp"
+  }
+}

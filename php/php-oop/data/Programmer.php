@@ -8,6 +8,7 @@ class Programmer{
 }
 
 class BackendProgrammer extends Programmer{
+  public string $password;
 
 }
 class FrontendProgrammer extends Programmer{

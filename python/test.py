@@ -10,3 +10,4 @@ table = truth_table(expression, [x, y, z])
 # Cetak tabel kebenaran
 for t in reversed(list(table)):
     print('{0} -> {1}'.format(t[:-1], t[-1]))
+

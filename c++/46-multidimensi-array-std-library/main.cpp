@@ -20,7 +20,7 @@ int main() {
   const int baris = 2;
   array<array<int, kolom>, baris> nilaiMD = {1, 2, 3, 4, 5, 6};
   printArray(nilaiMD);
-
+  
   /*cout << "[ ";*/
   /*cout << nilaiMD[0][0]<< " ";*/
   /*cout << nilaiMD[0][1]<< " ";*/
