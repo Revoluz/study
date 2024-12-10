@@ -3,8 +3,6 @@
     "*.embeddedhtml": "html",
     "*.css": "css",
     "ostream": "cpp",
-    "iostream": "cpp",
-    "type_traits": "cpp",
-    "string": "cpp"
+    "iostream": "cpp"
   }
 }
